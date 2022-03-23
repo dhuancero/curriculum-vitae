@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  /* font-size: 100%; */
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: lightslategray;
+}
+
+#headerContainer {
+  background-color: orange;
+  overflow: hidden;
+}
+
+/* IMGAGEN */
+#logoContainer {
+  float: left;
+  margin: 0 5px;
+}
+
+#logoContainer img {
+  width: 6em;
+  height: 6em;
+}
+
+#navContainer {
+  float: right;
+  position: relative;
+  /* padding: 20px; */
+  /* border: solid 1px; */
+}
+
+#navContainer #menuMovil {
+  display: none;
+}
+#navContainer ul {
+  text-align: center;
+}
+#navContainer ul li {
+  display: inline-block;
+  margin-left: -0.25em;
+  /* border: solid 1px; */
+}
+#navContainer ul li > a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 0.4em;
+  font-size: 1.5em;
+  color: black;
+}
+
+#navContainer ul li > a:hover {
+  background-color: brown;
+  color: whitesmoke;
+  padding: 0.4em;
+  border-radius: 0.8em;
+}
+/* parrafos */
+
+#parrafoContainer {
+  background-color: #f7f7f7;
+  /* border: solid 1px; */
+  padding: 5em;
+}
+
+#parrafoContainer p {
+  font-size: 1.2em;
+  margin-bottom: 3em;
+}
+
+#navMovil {
+  display: none;
+}
+/* ############################### */
+
+@media screen and (min-width: 693px) and (max-width: 833px) {
+  #headerContainer {
+    width: 100%;
+    /* border: solid 2px green; */
+  }
+
+  #logoContainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /* border: solid 1px; */
+  }
+
+  #navContainer {
+    text-align: center;
+    margin: 0 auto;
+    /* border: solid 1px; */
+    width: 100%;
+    display: inline-block;
+  }
+
+  #navContainer ul {
+    display: inline-block;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+  }
+}
+
+/* ############################### */
+@media screen and (max-width: 692px) {
+  #headerContainer {
+    width: 100%;
+    /* border: solid 2px green; */
+  }
+  #logoContainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /* border: solid 1px; */
+  }
+
+  #navContainer {
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* display: none; */
+    width: 100%;
+    display: none;
+  }
+
+  /* #####OPCIONES MOVIL ##### */
+
+  #navMovil {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #selectMenu {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    background-color: rgb(49, 48, 48);
+    color: whitesmoke;
+  }
+}

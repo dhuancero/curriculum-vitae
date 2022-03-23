@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menú Responsive</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+
+    <!-- ? SCRIPT-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <header id="headerContainer">
+        <div id="logoContainer">
+          <a href="/">
+            <img src="img/leonLogo.png" alt="inicio" title="Inicio" />
+          </a>
+        </div>
+
+        <nav id="navContainer">
+          <div id="btnMovil">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="#" id="menuMovil">Menú</a>
+          <ul>
+            <li><a href="#">elemento 1</a></li>
+            <li><a href="#">elemento 2</a></li>
+            <li><a href="#">elemento 3</a></li>
+            <li><a href="#">elemento 4</a></li>
+            <li><a href="#">elemento 5</a></li>
+          </ul>
+        </nav>
+
+        <nav id="navMovil">
+          <select name="elegir" id="selectMenu">
+            <option value="vacio" selected="selected" id="vacio">
+              Elige menú
+            </option>
+            <option value="primero" id="primero">Primero</option>
+            <option value="segundo" id="segundo">Segundo</option>
+            <option value="tercero" id="tercero">Tercero</option>
+          </select>
+        </nav>
+      </header>
+      <main id="mainContainer">
+        <section id="parrafoContainer">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+            atque quibusdam quidem, laboriosam laborum ipsa non debitis, tempora
+            dolores iure animi cupiditate voluptas asperiores, nesciunt
+            voluptatibus delectus suscipit totam tempore.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            amet sint, molestiae, consequatur nihil dignissimos recusandae,
+            inventore minima laudantium eos saepe optio eius accusantium
+            assumenda possimus numquam quas natus earum dolore? Omnis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            amet sint, molestiae, consequatur nihil dignissimos recusandae,
+            inventore minima laudantium eos saepe optio eius accusantium
+            assumenda possimus numquam quas natus earum dolore? Omnis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            amet sint, molestiae, consequatur nihil dignissimos recusandae,
+            inventore minima laudantium eos saepe optio eius accusantium
+            assumenda possimus numquam quas natus earum dolore? Omnis!
+          </p>
+          <p id="pFinal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            amet sint, molestiae, consequatur nihil dignissimos recusandae,
+            inventore minima laudantium eos saepe optio eius accusantium
+            assumenda possimus numquam quas natus earum dolore? Omnis!
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
