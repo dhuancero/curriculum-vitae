@@ -1,3 +1,26 @@
+const formacion = [
+  {
+    id: 1,
+    nombre_formacion: "Sistema de Telecomunicaciones e Informáticos",
+    centro_formacion: "IES GALILEO",
+    fecha_inicio: "2004",
+    fecha_fin: "2008",
+    ciudad: "Valladolid",
+    modalidad: "Presencial",
+    tipo_formacion: "Ciclo Formativo de Grado Superior",
+  },
+  {
+    id: 2,
+    nombre_formacion: "Desarrollo de Aplicaciones Informáticas",
+    centro_formacion: "IES GALILEO",
+    fecha_inicio: "2010",
+    fecha_fin: "2012",
+    ciudad: "Valladolid",
+    modalidad: "Presencial",
+    tipo_formacion: "Ciclo Formativo de Grado Superior",
+  },
+];
+
 const formacion_complementaria = [
   {
     id_fc: 1,

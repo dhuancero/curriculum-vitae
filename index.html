@@ -4,59 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <title>Menú Responsive</title>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js" defer></script>
-
-    <!-- ? SCRIPT-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <title>David Huanco Acero</title>
   </head>
 
   <body>
-    <header id="headerContainer">
-      <div id="logoContainer">
-        <a href="/">
-          <img src="img/leonLogo.png" alt="inicio" title="Inicio" />
-        </a>
-      </div>
-
-      <nav id="navContainer">
-        <div id="btnMovil">
-          <span></span>
-          <span></span>
-          <span></span>
+    <header class="header container bg-light">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 text-center datos-personales">
+          <img
+            src="img/dha-foto-perfil.jpg"
+            alt="logo"
+            class="logo"
+            width="200"
+          />
+          <h1>David Huanco Acero</h1>
+          <p>Desarrollador Web y Docente de FP para el empleo</p>
         </div>
-        <a href="#" id="menuMovil">Menú</a>
-        <ul>
-          <li><a href="#">elemento 1</a></li>
-          <li><a href="#">elemento 2</a></li>
-          <li><a href="#">elemento 3</a></li>
-          <li><a href="#">elemento 4</a></li>
-          <li><a href="#">elemento 5</a></li>
-        </ul>
-      </nav>
-
-      <nav id="navMovil">
-        <select name="elegir" id="selectMenu">
-          <option value="vacio" selected="selected" id="vacio">
-            Elige menú
-          </option>
-          <option value="primero" id="primero">Primero</option>
-          <option value="segundo" id="segundo">Segundo</option>
-          <option value="tercero" id="tercero">Tercero</option>
-        </select>
-      </nav>
+        <div class="info-personales"></div>
+      </div>
     </header>
     <main id="container"></main>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="main.js" defer></script>
   </body>
 </html>
