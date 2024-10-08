@@ -1,3 +1,4 @@
-# Currículumn David Huanco Acero
+# Currículum Vitae
+## David Huanco Acero
 
-## Creare un currículum vitae
+
