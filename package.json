@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "Currículum Vitae David Huanco Acero",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DHA",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhuancero/curriculum-vitae.git"
+  },
+  "keywords": [
+    "cv",
+    "curriculum",
+    "vitae"
+  ],
+  "bugs": {
+    "url": "https://github.com/dhuancero/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/dhuancero/curriculum-vitae#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
