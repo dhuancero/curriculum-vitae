@@ -14,23 +14,57 @@
   </head>
 
   <body>
-    <header class="header container bg-light">
-      <div class="row">
+    <header class="header container bg-dark pb-5 pt-3">
+      <div
+        class="flex-row d-flex justify-content-evenly align-items-center gap-5"
+      >
         <div class="col-12 col-md-6 col-lg-4 text-center datos-personales">
-          <img
-            src="img/dha-foto-perfil.jpg"
-            alt="logo"
-            class="logo"
-            width="200"
-          />
+          <img src="img/dha-foto-perfil.jpg" alt="logo" class="logo" />
           <h1>David Huanco Acero</h1>
           <p>Desarrollador Web y Docente de FP para el empleo</p>
         </div>
-        <div class="info-personales"></div>
+        <div
+          class="info-personales d-flex flex-column justify-content-center gap-1"
+        >
+          <p>info@dhadesarrollo.com</p>
+          <p>https://www.dhadesarrollo.com</p>
+          <p>+34 123 456 789</p>
+        </div>
       </div>
     </header>
-    <main id="container"></main>
+    <main id="container ">
+      <section class="section-left container">
+        <article class="sobre-mi">
+          <h2>Sobre Mi</h2>
+          <p>
+            Soy docente y desarrollador web con experiencia en la creación de
+            sitios y aplicaciones web, además de conocimientos en informática.
+            Manejo tecnologías como HTML, CSS, JavaScript, PHP, entre otros, e
+            integro inteligencia artificial(IA) tanto para desarrollar
+            aplicaciones como para mejorar mis clases.
+          </p>
+          <p>
+            Disfruto enseñar a otros sobre programación y tecnología, tanto en
+            clases presenciales como online. Siempre busco nuevos retos para
+            seguir mejorando.
+          </p>
+        </article>
+        <article class="habilidades">
+          <h2>Habilidades</h2>
+        </article>
+      </section>
+      <section class="section-right container">
+        <article class="experiencia">
+          <h2>Experiencia</h2>
+        </article>
+        <article class="formacion">
+          <h2>Formación</h2>
+        </article>
+      </section>
+    </main>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="main.js" defer></script>
+    <script src="data/formacion.js"></script>
+    <script src="data/experiencia.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
